@@ -15,6 +15,18 @@
 		01A4B9071F3C062100E807B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A4B9051F3C062100E807B5 /* LaunchScreen.storyboard */; };
 		01A4B9121F3C062100E807B5 /* FNCollectionViewLayoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9111F3C062100E807B5 /* FNCollectionViewLayoutDemoTests.m */; };
 		01A4B91D1F3C062100E807B5 /* FNCollectionViewLayoutDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B91C1F3C062100E807B5 /* FNCollectionViewLayoutDemoUITests.m */; };
+		01A4B92E1F3C07AD00E807B5 /* FNLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B92D1F3C07AD00E807B5 /* FNLayout.m */; };
+		01A4B9311F3C118100E807B5 /* FNCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9301F3C118100E807B5 /* FNCollectionViewLayout.m */; };
+		01A4B9341F3C275100E807B5 /* FNCollectionViewReorderableLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9331F3C275100E807B5 /* FNCollectionViewReorderableLayout.m */; };
+		01A4B9391F3C304600E807B5 /* DemoOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9381F3C304600E807B5 /* DemoOneViewController.m */; };
+		01A4B93D1F3C36B800E807B5 /* DemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B93C1F3C36B800E807B5 /* DemoCollectionViewCell.m */; };
+		01A4B9411F3C37D700E807B5 /* DemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9401F3C37D700E807B5 /* DemoModel.m */; };
+		01A4B9441F3C3F1100E807B5 /* DemoConCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9431F3C3F1100E807B5 /* DemoConCollectionViewCell.m */; };
+		01A4B9491F3C40FC00E807B5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A4B9481F3C40FC00E807B5 /* libz.tbd */; };
+		01A4B94D1F3C41FB00E807B5 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A4B94C1F3C41FB00E807B5 /* Reveal.framework */; };
+		01A4B9511F3C46D700E807B5 /* DemoTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9501F3C46D700E807B5 /* DemoTwoViewController.m */; };
+		01A4B9551F3C50C300E807B5 /* DemoThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9541F3C50C300E807B5 /* DemoThreeViewController.m */; };
+		01A4B9591F3C547600E807B5 /* DemoFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9581F3C547600E807B5 /* DemoFourViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,28 @@
 		01A4B9181F3C062100E807B5 /* FNCollectionViewLayoutDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FNCollectionViewLayoutDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01A4B91C1F3C062100E807B5 /* FNCollectionViewLayoutDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNCollectionViewLayoutDemoUITests.m; sourceTree = "<group>"; };
 		01A4B91E1F3C062100E807B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01A4B92C1F3C07AD00E807B5 /* FNLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNLayout.h; sourceTree = "<group>"; };
+		01A4B92D1F3C07AD00E807B5 /* FNLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNLayout.m; sourceTree = "<group>"; };
+		01A4B92F1F3C118100E807B5 /* FNCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNCollectionViewLayout.h; sourceTree = "<group>"; };
+		01A4B9301F3C118100E807B5 /* FNCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNCollectionViewLayout.m; sourceTree = "<group>"; };
+		01A4B9321F3C275100E807B5 /* FNCollectionViewReorderableLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNCollectionViewReorderableLayout.h; sourceTree = "<group>"; };
+		01A4B9331F3C275100E807B5 /* FNCollectionViewReorderableLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNCollectionViewReorderableLayout.m; sourceTree = "<group>"; };
+		01A4B9371F3C304600E807B5 /* DemoOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoOneViewController.h; sourceTree = "<group>"; };
+		01A4B9381F3C304600E807B5 /* DemoOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoOneViewController.m; sourceTree = "<group>"; };
+		01A4B93B1F3C36B800E807B5 /* DemoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCollectionViewCell.h; sourceTree = "<group>"; };
+		01A4B93C1F3C36B800E807B5 /* DemoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionViewCell.m; sourceTree = "<group>"; };
+		01A4B93F1F3C37D700E807B5 /* DemoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModel.h; sourceTree = "<group>"; };
+		01A4B9401F3C37D700E807B5 /* DemoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoModel.m; sourceTree = "<group>"; };
+		01A4B9421F3C3F1100E807B5 /* DemoConCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoConCollectionViewCell.h; sourceTree = "<group>"; };
+		01A4B9431F3C3F1100E807B5 /* DemoConCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoConCollectionViewCell.m; sourceTree = "<group>"; };
+		01A4B9481F3C40FC00E807B5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		01A4B94C1F3C41FB00E807B5 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		01A4B94F1F3C46D700E807B5 /* DemoTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTwoViewController.h; sourceTree = "<group>"; };
+		01A4B9501F3C46D700E807B5 /* DemoTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTwoViewController.m; sourceTree = "<group>"; };
+		01A4B9531F3C50C300E807B5 /* DemoThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoThreeViewController.h; sourceTree = "<group>"; };
+		01A4B9541F3C50C300E807B5 /* DemoThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoThreeViewController.m; sourceTree = "<group>"; };
+		01A4B9571F3C547600E807B5 /* DemoFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFourViewController.h; sourceTree = "<group>"; };
+		01A4B9581F3C547600E807B5 /* DemoFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFourViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A4B9491F3C40FC00E807B5 /* libz.tbd in Frameworks */,
+				01A4B94D1F3C41FB00E807B5 /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +121,7 @@
 				01A4B9101F3C062100E807B5 /* FNCollectionViewLayoutDemoTests */,
 				01A4B91B1F3C062100E807B5 /* FNCollectionViewLayoutDemoUITests */,
 				01A4B8F51F3C062100E807B5 /* Products */,
+				01A4B9471F3C40FC00E807B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +138,10 @@
 		01A4B8F61F3C062100E807B5 /* FNCollectionViewLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
-				01A4B8FA1F3C062100E807B5 /* AppDelegate.h */,
-				01A4B8FB1F3C062100E807B5 /* AppDelegate.m */,
-				01A4B8FD1F3C062100E807B5 /* ViewController.h */,
-				01A4B8FE1F3C062100E807B5 /* ViewController.m */,
-				01A4B9001F3C062100E807B5 /* Main.storyboard */,
-				01A4B9031F3C062100E807B5 /* Assets.xcassets */,
-				01A4B9051F3C062100E807B5 /* LaunchScreen.storyboard */,
-				01A4B9081F3C062100E807B5 /* Info.plist */,
+				01A4B94C1F3C41FB00E807B5 /* Reveal.framework */,
+				01A4B9351F3C2FFF00E807B5 /* modules */,
+				01A4B92B1F3C078100E807B5 /* FNCollectionViewLayout */,
+				01A4B92A1F3C066200E807B5 /* main */,
 				01A4B8F71F3C062100E807B5 /* Supporting Files */,
 			);
 			path = FNCollectionViewLayoutDemo;
@@ -138,6 +171,111 @@
 				01A4B91E1F3C062100E807B5 /* Info.plist */,
 			);
 			path = FNCollectionViewLayoutDemoUITests;
+			sourceTree = "<group>";
+		};
+		01A4B92A1F3C066200E807B5 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B8FA1F3C062100E807B5 /* AppDelegate.h */,
+				01A4B8FB1F3C062100E807B5 /* AppDelegate.m */,
+				01A4B8FD1F3C062100E807B5 /* ViewController.h */,
+				01A4B8FE1F3C062100E807B5 /* ViewController.m */,
+				01A4B9001F3C062100E807B5 /* Main.storyboard */,
+				01A4B9031F3C062100E807B5 /* Assets.xcassets */,
+				01A4B9051F3C062100E807B5 /* LaunchScreen.storyboard */,
+				01A4B9081F3C062100E807B5 /* Info.plist */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		01A4B92B1F3C078100E807B5 /* FNCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B92C1F3C07AD00E807B5 /* FNLayout.h */,
+				01A4B92D1F3C07AD00E807B5 /* FNLayout.m */,
+				01A4B92F1F3C118100E807B5 /* FNCollectionViewLayout.h */,
+				01A4B9301F3C118100E807B5 /* FNCollectionViewLayout.m */,
+				01A4B9321F3C275100E807B5 /* FNCollectionViewReorderableLayout.h */,
+				01A4B9331F3C275100E807B5 /* FNCollectionViewReorderableLayout.m */,
+			);
+			path = FNCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		01A4B9351F3C2FFF00E807B5 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B9561F3C545F00E807B5 /* demo4 */,
+				01A4B9521F3C508C00E807B5 /* demo3 */,
+				01A4B94E1F3C46C700E807B5 /* demo2 */,
+				01A4B9361F3C301D00E807B5 /* demo1 */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		01A4B9361F3C301D00E807B5 /* demo1 */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B93E1F3C370400E807B5 /* model */,
+				01A4B93A1F3C317200E807B5 /* view */,
+				01A4B9371F3C304600E807B5 /* DemoOneViewController.h */,
+				01A4B9381F3C304600E807B5 /* DemoOneViewController.m */,
+			);
+			path = demo1;
+			sourceTree = "<group>";
+		};
+		01A4B93A1F3C317200E807B5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B93B1F3C36B800E807B5 /* DemoCollectionViewCell.h */,
+				01A4B93C1F3C36B800E807B5 /* DemoCollectionViewCell.m */,
+				01A4B9421F3C3F1100E807B5 /* DemoConCollectionViewCell.h */,
+				01A4B9431F3C3F1100E807B5 /* DemoConCollectionViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		01A4B93E1F3C370400E807B5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B93F1F3C37D700E807B5 /* DemoModel.h */,
+				01A4B9401F3C37D700E807B5 /* DemoModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		01A4B9471F3C40FC00E807B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B9481F3C40FC00E807B5 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01A4B94E1F3C46C700E807B5 /* demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B94F1F3C46D700E807B5 /* DemoTwoViewController.h */,
+				01A4B9501F3C46D700E807B5 /* DemoTwoViewController.m */,
+			);
+			path = demo2;
+			sourceTree = "<group>";
+		};
+		01A4B9521F3C508C00E807B5 /* demo3 */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B9531F3C50C300E807B5 /* DemoThreeViewController.h */,
+				01A4B9541F3C50C300E807B5 /* DemoThreeViewController.m */,
+			);
+			path = demo3;
+			sourceTree = "<group>";
+		};
+		01A4B9561F3C545F00E807B5 /* demo4 */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B9571F3C547600E807B5 /* DemoFourViewController.h */,
+				01A4B9581F3C547600E807B5 /* DemoFourViewController.m */,
+			);
+			path = demo4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +411,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A4B9411F3C37D700E807B5 /* DemoModel.m in Sources */,
+				01A4B9511F3C46D700E807B5 /* DemoTwoViewController.m in Sources */,
 				01A4B8FF1F3C062100E807B5 /* ViewController.m in Sources */,
+				01A4B9391F3C304600E807B5 /* DemoOneViewController.m in Sources */,
 				01A4B8FC1F3C062100E807B5 /* AppDelegate.m in Sources */,
 				01A4B8F91F3C062100E807B5 /* main.m in Sources */,
+				01A4B92E1F3C07AD00E807B5 /* FNLayout.m in Sources */,
+				01A4B9341F3C275100E807B5 /* FNCollectionViewReorderableLayout.m in Sources */,
+				01A4B9551F3C50C300E807B5 /* DemoThreeViewController.m in Sources */,
+				01A4B9311F3C118100E807B5 /* FNCollectionViewLayout.m in Sources */,
+				01A4B9441F3C3F1100E807B5 /* DemoConCollectionViewCell.m in Sources */,
+				01A4B9591F3C547600E807B5 /* DemoFourViewController.m in Sources */,
+				01A4B93D1F3C36B800E807B5 /* DemoCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,8 +574,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FNCollectionViewLayoutDemo",
+				);
 				INFOPLIST_FILE = FNCollectionViewLayoutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.FNCollectionViewLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -437,8 +595,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FNCollectionViewLayoutDemo",
+				);
 				INFOPLIST_FILE = FNCollectionViewLayoutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.FNCollectionViewLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
