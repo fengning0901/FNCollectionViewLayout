@@ -23,7 +23,6 @@
 		01A4B9411F3C37D700E807B5 /* DemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9401F3C37D700E807B5 /* DemoModel.m */; };
 		01A4B9441F3C3F1100E807B5 /* DemoConCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9431F3C3F1100E807B5 /* DemoConCollectionViewCell.m */; };
 		01A4B9491F3C40FC00E807B5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A4B9481F3C40FC00E807B5 /* libz.tbd */; };
-		01A4B94D1F3C41FB00E807B5 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A4B94C1F3C41FB00E807B5 /* Reveal.framework */; };
 		01A4B9511F3C46D700E807B5 /* DemoTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9501F3C46D700E807B5 /* DemoTwoViewController.m */; };
 		01A4B9551F3C50C300E807B5 /* DemoThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9541F3C50C300E807B5 /* DemoThreeViewController.m */; };
 		01A4B9591F3C547600E807B5 /* DemoFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9581F3C547600E807B5 /* DemoFourViewController.m */; };
@@ -78,7 +77,6 @@
 		01A4B9421F3C3F1100E807B5 /* DemoConCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoConCollectionViewCell.h; sourceTree = "<group>"; };
 		01A4B9431F3C3F1100E807B5 /* DemoConCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoConCollectionViewCell.m; sourceTree = "<group>"; };
 		01A4B9481F3C40FC00E807B5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		01A4B94C1F3C41FB00E807B5 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		01A4B94F1F3C46D700E807B5 /* DemoTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTwoViewController.h; sourceTree = "<group>"; };
 		01A4B9501F3C46D700E807B5 /* DemoTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTwoViewController.m; sourceTree = "<group>"; };
 		01A4B9531F3C50C300E807B5 /* DemoThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoThreeViewController.h; sourceTree = "<group>"; };
@@ -93,7 +91,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				01A4B9491F3C40FC00E807B5 /* libz.tbd in Frameworks */,
-				01A4B94D1F3C41FB00E807B5 /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +135,6 @@
 		01A4B8F61F3C062100E807B5 /* FNCollectionViewLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
-				01A4B94C1F3C41FB00E807B5 /* Reveal.framework */,
 				01A4B9351F3C2FFF00E807B5 /* modules */,
 				01A4B92B1F3C078100E807B5 /* FNCollectionViewLayout */,
 				01A4B92A1F3C066200E807B5 /* main */,
@@ -580,12 +576,7 @@
 				);
 				INFOPLIST_FILE = FNCollectionViewLayoutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lz",
-					"-framework",
-					Reveal,
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.FNCollectionViewLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -601,12 +592,7 @@
 				);
 				INFOPLIST_FILE = FNCollectionViewLayoutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lz",
-					"-framework",
-					Reveal,
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.FNCollectionViewLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -677,6 +663,7 @@
 				01A4B9231F3C062100E807B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01A4B9241F3C062100E807B5 /* Build configuration list for PBXNativeTarget "FNCollectionViewLayoutDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -685,6 +672,7 @@
 				01A4B9261F3C062100E807B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01A4B9271F3C062100E807B5 /* Build configuration list for PBXNativeTarget "FNCollectionViewLayoutDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -693,6 +681,7 @@
 				01A4B9291F3C062100E807B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
